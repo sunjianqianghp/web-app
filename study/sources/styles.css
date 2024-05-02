@@ -1,0 +1,35 @@
+body
+{
+    background-color:aliceblue;
+}
+
+h1           
+{ 
+color: green;
+text-align: center;
+border: 3pt solid rgb(8, 8, 161);
+}
+
+
+
+p
+{
+color: rgb(8, 0, 255);
+background-color:#99af9f;
+border: 1pt solid black;
+}
+
+div
+{
+color: #FFFFFF;
+background-color:#000000;
+}
+
+span
+{
+color: #000000;
+background-color:#FFFFFF;
+}
+
+
+

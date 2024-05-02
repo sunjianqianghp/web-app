@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>tom</title>
+    <meta name="description" content="描述">
+    <meta name="keywords" content="HTML, CSS, XML, JS">
+    <meta name="author" content="SJQ">
+    <meta http-equiv="refresh" content="3600">  <!--每小时更新一次--> 
+    <link rel="shotcut icon" href="images/tom.png" >
+    <link rel="stylesheet" type="text/css" href="sources/styles.css">
+    <!-- <base href="https://www.runoob.com/images/" target="_blank">   
+    <base href="https://www.runoob.com/audios/" target="_blank">    -->
+    <!-- <style type="text/css">
+        body {
+            background-color:#a1bfdd;
+        }
+        h1 {
+            color:rgba(0, 30, 255, 0.805);
+            text-align:center;
+        }
+        p {
+            font-family:"Times New Roman";
+            font-size:20px;
+            color:black;
+        }
+    </style> -->
+    
+
+</head>
+<body>
+    
+    <h1>一级标题</h1>
+    <h2 style="text-align: center;background-color: yellow;font-family:'Franklin Gothic Medium';">二级标题</h2>
+    <hr>
+    <a href="https://www.baidu.com" target="_blank" title="baidu.com">
+        <img src="images/baidu.png">
+    </a><br>
+    <a href="http://tom.example.com:8080" target="_blank" title="sunjianqiang's web" style="text-decoration:none;"> tom </a><br>
+    <a href="docs/Linux高性能服务器编程.pdf" download>download <cite>linux web server in C</cite></a><br>
+    <a href="#music">go to music</a><br>
+    <a href="#tips">访问有用的提示部分</a><br>
+    <a id="tips">有用的提示部分</a><br>
+
+    <hr>
+
+    <img src="logo.png" alt="logo"><br> 
+    - 注意这里我们设置了图片的相对地址。能正常显示是因为我们在 head 部分设置了 base 标签，该标签指定了页面上所有链接的默认 URL， 所以该图片的访问地址为 "https://www.runoob.com/images/logo.png"
+    <br><br>
+
+
+    <center>Hello zjm<img  src="images/zjm.png" width="300" alt="pic lost" align="top"></center>
+    <center>zjm </center>
+    <hr>
+
+    <p>这些是一段</p>
+    <pre>
+            春晓
+    春眠不觉晓，处处闻啼鸟。
+    夜来风雨多，花落知多少。
+              -- 杨🐖你好
+    </pre>
+    <font size="3">这是3号字体文本</font><br>
+    <b>bold</b><br>
+    <i>italy</i><br>
+    <hr>
+    a<sup>sup</sup><br> 
+    b<sub>sub</sub>
+    <pre>pre     pre
+        pre pre    pre 
+    </pre>
+    <code lang="python">
+        <pre>
+        #/usr/bin/python
+        import numpy as np
+        a = np.random.randint()
+
+        if __name__ == "__name__":
+            print("hello world!")
+        </pre>
+    </code>
+    <hr>
+    <abbr title="etcetera">etc.</abbr>
+    </br>
+    <acronym title="World Wide Web">WWW</acronym>
+    <p style="color: black;margin-left: 20px;background-color: yellow;">在某些浏览器中， 当您把鼠标移至缩略词语上时， title 可用于展示表达的完整版本。</p>
+    <p>仅对于 IE 5 中的 acronym 元素有效。</p>
+    <p>对于 Netscape 6.2 中的 abbr 和 acronym 元素都有效。</p>
+    <hr>
+
+    <blockquote>
+        <p>他们这些臭男人都是这个样的！</p>
+        <footer>——崔晶晶</footer>
+    </blockquote>
+    <hr>
+
+    <p>
+        <bdo dir="rtl">该段落文字从右到左显示。</bdo>
+    </p>
+    <hr>
+    <q>E=mc<sup>2</sup></q>
+    <hr>
+    <p>My favorite color is <del>blue</del><ins>red</ins> </p>
+    <hr>
+    <p><cite>The old man and the sea</cite> by Hemingway</p>
+    <a name="music">musics</a><br> 
+    
+
+    <hr>
+    <audio src="audios/A Simple Life.mp3"                   controls preload="meta"></audio><br>
+    <audio src="audios/A300813697431GAR.mp3"                controls preload="meta"></audio><br>
+    <audio src="audios/asa.mp3"                             controls preload="meta"></audio><br>
+    <audio src="audios/Coup De Coeur.mp3"                   controls preload="meta"></audio><br>
+    <audio src="audios/Death Of Titanic.mp3"                controls preload="meta"></audio><br>
+
+    <hr>
+    <script>
+        document.write("We are now in script, this is printed by document.write")
+    </script>
+
+    <hr>
+
+    <img src="images/planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+    <map name="planetmap">
+    <area shape="circle" coords="90,58,3"    alt="Mercury" href="https://www.bilibili.com/">
+    <area shape="rect"   coords="0,0,82,126" alt="Sun" href="https://www.tencent.com/">
+    <area shape="circle" coords="124,58,8"   alt="Venus" href="https://www.baidu.com">
+    </map>
+    <hr>
+
+    <table border="1">
+        <caption><b>horizontal</b></caption>
+        <thead>
+            <tr>
+                <th>列标题1</th>
+                <th>列标题2</th>
+                <th>列标题3</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table border="1">
+        <caption><b>vertical</caption>b> </caption>
+        <tr>
+          <th>First Name:</th>
+          <td>Bill Gates</td>
+        </tr>
+        <tr>
+          <th>Telephone:</th>
+          <td>555 77 854</td>
+        </tr>
+        <tr>
+          <th>Telephone:</th>
+          <td>555 77 855</td>
+        </tr>
+        </table>
+
+        <hr>
+        <ul>
+            <li>Coffe</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+        <ol start="50">
+            <li>Coffe</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+
+
+        <h4>大写字母列表：</h4>
+        <ol type="A">
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Lemons</li>
+            <li>Oranges</li>
+        </ol> 
+
+        <h4>小写字母列表：</h4>
+        <ol type="a">
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Lemons</li>
+            <li>Oranges</li>
+        </ol>  
+
+        <h4>罗马数字列表：</h4>
+        <ol type="I">
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Lemons</li>
+            <li>Oranges</li>
+        </ol>  
+
+        <h4>小写罗马数字列表：</h4>
+        <ol type="i">
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Lemons</li>
+            <li>Oranges</li>
+        </ol>  
+
+        <h4>圆点列表：</h4>
+        <ul style="list-style-type:square">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+        </ul>  
+
+        <h4>嵌套列表</h4>
+        <ul>
+            <li>Coffe </li>
+            <li>Tea</li>
+                <ul>
+                    <li type="circle">Black tea</li>
+                    <li type="circle">Grean tea</li>
+                </ul>
+            <li>Milk</li>
+        </ul>
+
+        <h4>自定义列表</h4>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+        </dl>
+
+
+    
+</body>
+</html>
+    
+
+
+
+
+
+
+
+
+
