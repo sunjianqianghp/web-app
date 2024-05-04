@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>title</title>
+        <link rel="shotcut icon" href="images/tom.png">
+        <!-- <link rel="shotcut icon" href="{{url_for('static', filename='./tom.png')}}"> -->
+    </head>
+    <table border="1">
+        {% for key, value in result.items() %}
+        <tr>
+            <th>{{key}}</th>
+            <td>{{value}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</html>
